@@ -23,18 +23,19 @@ input.onButtonPressed(Button.B, function () {
     if (jump_countdown == 0) {
         jump_countdown = 1
         y_player = 4
-        basic.pause(1000)
+        basic.pause(5000)
         y_player = 5
         jump_countdown = 0
     }
 })
-let jump_countdown = 0
 let cactus_2: game.LedSprite = null
 let cactus: game.LedSprite = null
 let vliegding_achterchrond: game.LedSprite = null
 let vliegding: game.LedSprite = null
 let player: game.LedSprite = null
 let y_player = 0
+let jump_countdown = 0
+jump_countdown = 0
 let x_player = 1
 y_player = 5
 basic.forever(function () {
